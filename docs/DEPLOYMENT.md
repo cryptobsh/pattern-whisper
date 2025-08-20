@@ -7,7 +7,7 @@ Add these in Vercel Dashboard → Settings → Environment Variables:
 ```bash
 # Public vars (safe to expose)
 VITE_SUPABASE_URL=https://ztgvmqdencafiyoaarpu.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0Z3ZtcWRlbmNhZml5b2FhcnB1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU3MTY5MjIsImV4cCI6MjA3MTI5MjkyMn0.Zszgp1oraDnFm8zKieA3U8GXCFJ_tO0Zjs_ybWNSrKs
+VITE_SUPABASE_ANON_KEY=your_anon_key_here
 
 # Feature flags
 VITE_DEMO_MODE=false
@@ -23,7 +23,7 @@ Set these via Supabase CLI (NOT in Vercel):
 
 ```bash
 # Service role key (for admin operations)
-supabase secrets set SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0Z3ZtcWRlbmNhZml5b2FhcnB1Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NTcxNjkyMiwiZXhwIjoyMDcxMjkyOTIyfQ.KGMpCCy0KqWARWoRloQaqaiboGs_VtMo6XkBf1mfN6o
+supabase secrets set SERVICE_ROLE_KEY=your_service_role_key_here
 
 # Data provider keys (if using external APIs)
 supabase secrets set POLYGON_API_KEY=your_key_here

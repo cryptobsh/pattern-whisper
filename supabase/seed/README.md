@@ -45,7 +45,7 @@ Add these to your `.env.local` file:
 ```env
 # From your Supabase project settings
 NEXT_PUBLIC_SUPABASE_URL=https://ztgvmqdencafiyoaarpu.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0Z3ZtcWRlbmNhZml5b2FhcnB1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU3MTY5MjIsImV4cCI6MjA3MTI5MjkyMn0.Zszgp1oraDnFm8zKieA3U8GXCFJ_tO0Zjs_ybWNSrKs
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
 
 # Get this from Supabase Settings > API > Service Role Key
 SUPABASE_SERVICE_ROLE_KEY=your_service_role_key_here

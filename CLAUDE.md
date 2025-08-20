@@ -202,8 +202,8 @@ export const config = {
 ```env
 # Supabase (Vite uses VITE_ prefix)
 VITE_SUPABASE_URL=https://ztgvmqdencafiyoaarpu.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJ... (configured)
-SUPABASE_SERVICE_ROLE_KEY=eyJ... (configured for Edge Functions)
+VITE_SUPABASE_ANON_KEY=your_anon_key_here
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key_here
 
 # App Configuration
 VITE_APP_URL=https://pattern-whisper.vercel.app
